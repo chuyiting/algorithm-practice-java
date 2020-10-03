@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c389622-0e69-4136-a9b1-16632e1415a3" name="Default Changelist" comment="" />
+    <list default="true" id="9c389622-0e69-4136-a9b1-16632e1415a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TequeTest/MyArrayDequeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TequeTest/TequeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyLinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MyLinkedListTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/main/java" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hoUdrVQL8MDrWjGEeimszDRwTZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -29,27 +39,94 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.MyLinkedList">
-    <configuration name="JoinString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JoinString" />
+  <component name="RunManager" selected="JUnit.TequeTest">
+    <configuration name="MyArrayDequeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TequeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TequeTest" />
+      <option name="MAIN_CLASS_NAME" value="TequeTest.MyArrayDequeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyLinkedList" />
+    <configuration name="MyArrayDequeTest.putBackTest_oneElement_popFront" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TequeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TequeTest" />
+      <option name="MAIN_CLASS_NAME" value="TequeTest.MyArrayDequeTest" />
+      <option name="METHOD_NAME" value="putBackTest_oneElement_popFront" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayDequeTest.putBackTest_severalElement_popFront" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TequeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TequeTest" />
+      <option name="MAIN_CLASS_NAME" value="TequeTest.MyArrayDequeTest" />
+      <option name="METHOD_NAME" value="putBackTest_severalElement_popFront" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayDequeTest.putFrontTest_severalElement_popBack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TequeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TequeTest" />
+      <option name="MAIN_CLASS_NAME" value="TequeTest.MyArrayDequeTest" />
+      <option name="METHOD_NAME" value="putFrontTest_severalElement_popBack" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TequeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TequeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TequeTest" />
+      <option name="MAIN_CLASS_NAME" value="TequeTest.TequeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyLinkedList" />
-        <item itemvalue="Application.JoinString" />
+        <item itemvalue="JUnit.TequeTest" />
+        <item itemvalue="JUnit.MyArrayDequeTest" />
+        <item itemvalue="JUnit.MyArrayDequeTest.putBackTest_severalElement_popFront" />
+        <item itemvalue="JUnit.MyArrayDequeTest.putBackTest_oneElement_popFront" />
+        <item itemvalue="JUnit.MyArrayDequeTest.putFrontTest_severalElement_popBack" />
       </list>
     </recent_temporary>
   </component>
@@ -87,61 +164,95 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" width="811" height="669" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1600683763869" />
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1600678038305">
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1601658620403">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1600678038305" />
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1601658620403" />
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1601656089382">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1601656089382" />
+    <state x="468" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601656933637">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="468" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1601656933637" />
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600684643182">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1600684643182" />
-    <state width="1398" height="160" key="GridCell.Tab.0.bottom" timestamp="1600694256285">
+    <state width="1398" height="300" key="GridCell.Tab.0.bottom" timestamp="1601709956422">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="160" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600694256285" />
+    <state width="1398" height="300" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601709956422" />
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1601658970808" />
     <state width="1398" height="335" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1600684663634" />
-    <state width="1398" height="160" key="GridCell.Tab.0.center" timestamp="1600694256283">
+    <state width="1398" height="300" key="GridCell.Tab.0.center" timestamp="1601709956421">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="160" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600694256283" />
+    <state width="1398" height="300" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601709956421" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1601658970805" />
     <state width="1398" height="335" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1600684663632" />
-    <state width="1398" height="160" key="GridCell.Tab.0.left" timestamp="1600694256282">
+    <state width="1398" height="300" key="GridCell.Tab.0.left" timestamp="1601709956420">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="160" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600694256282" />
+    <state width="1398" height="300" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601709956420" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1601658970803" />
     <state width="1398" height="335" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1600684663630" />
-    <state width="1398" height="160" key="GridCell.Tab.0.right" timestamp="1600694256284">
+    <state width="1398" height="300" key="GridCell.Tab.0.right" timestamp="1601709956421">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="160" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600694256284" />
+    <state width="1398" height="300" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601709956421" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1601658970807" />
     <state width="1398" height="335" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1600684663633" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1600682129430">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1601709946567">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600682129430" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601709946567" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.830@0.23.1440.830" timestamp="1601658282465" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.831@0.23.1440.831" timestamp="1600681858801" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1600682129429">
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1601709946565">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1600682129429" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1601709946565" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.830@0.23.1440.830" timestamp="1601658282463" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.831@0.23.1440.831" timestamp="1600681858799" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1600682129428">
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1601709946564">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1600682129428" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1601709946564" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.830@0.23.1440.830" timestamp="1601658282463" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.831@0.23.1440.831" timestamp="1600681858799" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1600682129429">
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1601709946566">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1600682129429" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1601709946566" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.830@0.23.1440.830" timestamp="1601658282464" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.831@0.23.1440.831" timestamp="1600681858800" />
-    <state x="221" y="23" width="1024" height="831" key="SettingsEditor" timestamp="1600679831732">
+    <state x="35" y="23" width="1024" height="830" key="SettingsEditor" timestamp="1601649322209">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="23" width="1024" height="831" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600679831732" />
+    <state x="35" y="23" width="1024" height="830" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601649322209" />
     <state x="426" y="63" key="refactoring.ChangeSignatureDialog" timestamp="1600683011921">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="426" y="63" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1600683011921" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601657179541">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601657179541" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Teque/Teque.java</url>
+          <line>37</line>
+          <properties class="Teque.Teque" method="putBack">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
