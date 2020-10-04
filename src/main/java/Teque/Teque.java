@@ -1,8 +1,6 @@
 package Teque;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 
 /**
@@ -57,27 +55,25 @@ public class Teque {
 
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        FastIO io = new FastIO();
+        int n = io.nextInt();
         Tokenizer tokenizer = new Tokenizer();
-        int numOfCommands = Integer.parseInt(br.readLine());
-        Teque teque = new Teque(numOfCommands);
-        for (int i = 0; i < numOfCommands; i++) {
-            Command command = tokenizer.tokenize(br.readLine().trim());
-            switch (command.getCommandType()) {
-            case GET:
-                System.out.println( teque.get(command.getIdxOrValue()));
-                break;
-            case PUSH_BACK:
-                teque.putBack(command.getIdxOrValue());
-                break;
-            case PUSH_MIDDLE:
-                teque.putMiddle(command.getIdxOrValue());
-                break;
-            case PUSH_FRONT:
-                teque.putFront(command.getIdxOrValue());
-                break;
+        Teque teque = new Teque(n);
+        for (int i = 0; i < n; i++) {
+            String op = io.next();
+            int idx = io.nextInt();
+            if (op.equals("push_back")) {
+                teque.putBack(idx);
+            } else if (op.equals("push_front")) {
+                teque.putFront(idx);
+            } else if (op.equals("push_middle")) {
+                teque.putMiddle(idx);
+            } else {
+                io.write(String.valueOf(teque.get(idx)));
+                io.write("\n");
             }
         }
+        io.flush();
 
 
     }
