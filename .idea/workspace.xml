@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c389622-0e69-4136-a9b1-16632e1415a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/FibIterative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LazyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Teque/MyMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Teque/Teque$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Teque/FastIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Teque/FastIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Teque/FastIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Teque/FastIO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Teque/Teque.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Teque/Teque.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Algorithm-Practice.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +40,16 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.Teque">
-    <configuration name="Teque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Teque.Teque" />
+  <component name="RunManager" selected="Application.LazyList">
+    <configuration name="LazyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LazyList" />
+      <module name="Algorithm-Practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Teque.MyMatrix" />
       <module name="Algorithm-Practice" />
       <extension name="coverage">
         <pattern>
@@ -49,49 +61,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayDequeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SuperSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SuperSort" />
       <module name="Algorithm-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TequeTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TequeTest" />
-      <option name="MAIN_CLASS_NAME" value="TequeTest.MyArrayDequeTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayDequeTest.putBackTest_oneElement_popFront" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Teque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Teque.Teque" />
       <module name="Algorithm-Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TequeTest.*" />
+          <option name="PATTERN" value="Teque.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TequeTest" />
-      <option name="MAIN_CLASS_NAME" value="TequeTest.MyArrayDequeTest" />
-      <option name="METHOD_NAME" value="putBackTest_oneElement_popFront" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyArrayDequeTest.putBackTest_severalElement_popFront" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TequeTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TequeTest" />
-      <option name="MAIN_CLASS_NAME" value="TequeTest.MyArrayDequeTest" />
-      <option name="METHOD_NAME" value="putBackTest_severalElement_popFront" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LazyList" />
+        <item itemvalue="Application.SuperSort" />
+        <item itemvalue="Application.MyMatrix" />
         <item itemvalue="Application.Teque" />
         <item itemvalue="JUnit.TequeTest" />
-        <item itemvalue="JUnit.MyArrayDequeTest" />
-        <item itemvalue="JUnit.MyArrayDequeTest.putBackTest_severalElement_popFront" />
-        <item itemvalue="JUnit.MyArrayDequeTest.putBackTest_oneElement_popFront" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +145,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" width="811" height="669" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1600683763869" />
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606399685214">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1606399685214" />
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1601658620403">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -176,65 +165,75 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1600684643182" />
-    <state width="1398" height="205" key="GridCell.Tab.0.bottom" timestamp="1601778620387">
+    <state width="1398" height="173" key="GridCell.Tab.0.bottom" timestamp="1606668691173">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601778620387" />
+    <state width="1398" height="173" key="GridCell.Tab.0.bottom/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1606668691173" />
+    <state width="1398" height="173" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1602599462103" />
     <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1601658970808" />
     <state width="1398" height="335" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1600684663634" />
-    <state width="1398" height="205" key="GridCell.Tab.0.center" timestamp="1601778620386">
+    <state width="1398" height="173" key="GridCell.Tab.0.center" timestamp="1606668691171">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="205" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601778620386" />
+    <state width="1398" height="173" key="GridCell.Tab.0.center/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1606668691171" />
+    <state width="1398" height="173" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1602599462102" />
     <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1601658970805" />
     <state width="1398" height="335" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1600684663632" />
-    <state width="1398" height="205" key="GridCell.Tab.0.left" timestamp="1601778620385">
+    <state width="1398" height="173" key="GridCell.Tab.0.left" timestamp="1606668691171">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="205" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601778620385" />
+    <state width="1398" height="173" key="GridCell.Tab.0.left/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1606668691171" />
+    <state width="1398" height="173" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1602599462101" />
     <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1601658970803" />
     <state width="1398" height="335" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1600684663630" />
-    <state width="1398" height="205" key="GridCell.Tab.0.right" timestamp="1601778620386">
+    <state width="1398" height="173" key="GridCell.Tab.0.right" timestamp="1606668691172">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="205" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601778620386" />
+    <state width="1398" height="173" key="GridCell.Tab.0.right/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1606668691172" />
+    <state width="1398" height="173" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1602599462103" />
     <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1601658970807" />
     <state width="1398" height="335" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1600684663633" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1601720258286">
+    <state width="1398" height="123" key="GridCell.Tab.1.bottom" timestamp="1602597717340">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601720258286" />
+    <state width="1398" height="123" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1602597717340" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.830@0.23.1440.830" timestamp="1601658282465" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.831@0.23.1440.831" timestamp="1600681858801" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1601720258285">
+    <state width="1398" height="123" key="GridCell.Tab.1.center" timestamp="1602597717339">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1601720258285" />
+    <state width="1398" height="123" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1602597717339" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.830@0.23.1440.830" timestamp="1601658282463" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.831@0.23.1440.831" timestamp="1600681858799" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1601720258285">
+    <state width="1398" height="123" key="GridCell.Tab.1.left" timestamp="1602597717338">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1601720258285" />
+    <state width="1398" height="123" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1602597717338" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.830@0.23.1440.830" timestamp="1601658282463" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.831@0.23.1440.831" timestamp="1600681858799" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1601720258286">
+    <state width="1398" height="123" key="GridCell.Tab.1.right" timestamp="1602597717339">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1601720258286" />
+    <state width="1398" height="123" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1602597717339" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.830@0.23.1440.830" timestamp="1601658282464" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.831@0.23.1440.831" timestamp="1600681858800" />
     <state x="35" y="23" width="1024" height="830" key="SettingsEditor" timestamp="1601778852846">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="35" y="23" width="1024" height="830" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601778852846" />
+    <state x="397" y="279" key="com.intellij.ide.util.TipDialog" timestamp="1607227631713">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="279" key="com.intellij.ide.util.TipDialog/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1606829086571" />
+    <state x="397" y="279" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1607227631713" />
     <state x="426" y="63" key="refactoring.ChangeSignatureDialog" timestamp="1600683011921">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="426" y="63" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1600683011921" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601657179541">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1606399742825">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601657179541" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1606399742825" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1602592403541" />
   </component>
 </project>

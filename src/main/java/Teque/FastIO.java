@@ -26,4 +26,10 @@ class FastIO {
     public void flush() throws IOException {
         bw.flush();
     }
+
+    public static void main(String[] args) {
+
+    }
+
+
 }
