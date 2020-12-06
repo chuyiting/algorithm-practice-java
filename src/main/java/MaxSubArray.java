@@ -1,3 +1,4 @@
+// Leetcode: https://leetcode.com/problems/maximum-subarray/
 public class MaxSubArray {
     /**
      * My solution: calculate the cdf => find the biggest difference
@@ -69,7 +70,7 @@ public class MaxSubArray {
     /**
      * Solution3: divide and conquer
      * O(n logn)
-     * 
+     *
      * @param nums
      * @return
      */
