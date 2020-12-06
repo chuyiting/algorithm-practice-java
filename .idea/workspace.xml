@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c389622-0e69-4136-a9b1-16632e1415a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MaxSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +34,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.ArrayProduct">
+  <component name="RunManager" selected="Application.MaxSubArray">
     <configuration name="ArrayProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayProduct" />
       <module name="Algorithm-Practice" />
@@ -45,6 +44,13 @@
     </configuration>
     <configuration name="LazyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LazyList" />
+      <module name="Algorithm-Practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxSubArray" />
       <module name="Algorithm-Practice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,26 +76,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Teque.Teque" />
-      <module name="Algorithm-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Teque.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.ArrayProduct" />
         <item itemvalue="Application.LazyList" />
         <item itemvalue="Application.SuperSort" />
         <item itemvalue="Application.MyMatrix" />
-        <item itemvalue="Application.Teque" />
       </list>
     </recent_temporary>
   </component>
@@ -152,31 +145,31 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1600684643182" />
-    <state width="1398" height="123" key="GridCell.Tab.0.bottom" timestamp="1607236626875">
+    <state width="1398" height="173" key="GridCell.Tab.0.bottom" timestamp="1607244463025">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="123" key="GridCell.Tab.0.bottom/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607236626875" />
+    <state width="1398" height="173" key="GridCell.Tab.0.bottom/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607244463025" />
     <state width="1398" height="173" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1602599462103" />
     <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1601658970808" />
     <state width="1398" height="335" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1600684663634" />
-    <state width="1398" height="123" key="GridCell.Tab.0.center" timestamp="1607236626873">
+    <state width="1398" height="173" key="GridCell.Tab.0.center" timestamp="1607244463024">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="123" key="GridCell.Tab.0.center/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607236626873" />
+    <state width="1398" height="173" key="GridCell.Tab.0.center/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607244463024" />
     <state width="1398" height="173" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1602599462102" />
     <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1601658970805" />
     <state width="1398" height="335" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1600684663632" />
-    <state width="1398" height="123" key="GridCell.Tab.0.left" timestamp="1607236626872">
+    <state width="1398" height="173" key="GridCell.Tab.0.left" timestamp="1607244463023">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="123" key="GridCell.Tab.0.left/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607236626872" />
+    <state width="1398" height="173" key="GridCell.Tab.0.left/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607244463023" />
     <state width="1398" height="173" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1602599462101" />
     <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1601658970803" />
     <state width="1398" height="335" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1600684663630" />
-    <state width="1398" height="123" key="GridCell.Tab.0.right" timestamp="1607236626874">
+    <state width="1398" height="173" key="GridCell.Tab.0.right" timestamp="1607244463025">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="123" key="GridCell.Tab.0.right/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607236626874" />
+    <state width="1398" height="173" key="GridCell.Tab.0.right/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607244463025" />
     <state width="1398" height="173" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1602599462103" />
     <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1601658970807" />
     <state width="1398" height="335" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1600684663633" />
