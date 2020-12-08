@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c389622-0e69-4136-a9b1-16632e1415a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MergeIntervalsConnectedComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GroupAnagrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,9 +34,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.MergeIntervalsConnectedComponent">
-    <configuration name="ArrayProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayProduct" />
+  <component name="RunManager" selected="Application.GroupAnagrams">
+    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GroupAnagrams" />
       <module name="Algorithm-Practice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,11 +72,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.MergeIntervalsConnectedComponent" />
         <item itemvalue="Application.MergeIntervals" />
         <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.MaxSubArray" />
-        <item itemvalue="Application.ArrayProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -140,37 +139,37 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1600684643182" />
-    <state width="1398" height="143" key="GridCell.Tab.0.bottom" timestamp="1607440053904">
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom" timestamp="1607443589658">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="143" key="GridCell.Tab.0.bottom/-1024.132.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607440053904" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/-1024.132.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607443589658" />
     <state width="1398" height="215" key="GridCell.Tab.0.bottom/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607250680848" />
     <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-78.1920.1055@0.0.1440.900" timestamp="1607394141226" />
     <state width="1398" height="173" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1602599462103" />
     <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1601658970808" />
     <state width="1398" height="335" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1600684663634" />
-    <state width="1398" height="143" key="GridCell.Tab.0.center" timestamp="1607440053902">
+    <state width="1398" height="205" key="GridCell.Tab.0.center" timestamp="1607443589656">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="143" key="GridCell.Tab.0.center/-1024.132.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607440053902" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/-1024.132.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607443589656" />
     <state width="1398" height="215" key="GridCell.Tab.0.center/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607250680844" />
     <state width="1398" height="200" key="GridCell.Tab.0.center/0.0.1440.900/1440.-78.1920.1055@0.0.1440.900" timestamp="1607394141225" />
     <state width="1398" height="173" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1602599462102" />
     <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1601658970805" />
     <state width="1398" height="335" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1600684663632" />
-    <state width="1398" height="143" key="GridCell.Tab.0.left" timestamp="1607440053900">
+    <state width="1398" height="205" key="GridCell.Tab.0.left" timestamp="1607443589654">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="143" key="GridCell.Tab.0.left/-1024.132.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607440053900" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/-1024.132.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607443589654" />
     <state width="1398" height="215" key="GridCell.Tab.0.left/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607250680843" />
     <state width="1398" height="200" key="GridCell.Tab.0.left/0.0.1440.900/1440.-78.1920.1055@0.0.1440.900" timestamp="1607394141224" />
     <state width="1398" height="173" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1602599462101" />
     <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1601658970803" />
     <state width="1398" height="335" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1600684663630" />
-    <state width="1398" height="143" key="GridCell.Tab.0.right" timestamp="1607440053903">
+    <state width="1398" height="205" key="GridCell.Tab.0.right" timestamp="1607443589657">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="143" key="GridCell.Tab.0.right/-1024.132.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607440053903" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/-1024.132.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607443589657" />
     <state width="1398" height="215" key="GridCell.Tab.0.right/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607250680846" />
     <state width="1398" height="200" key="GridCell.Tab.0.right/0.0.1440.900/1440.-78.1920.1055@0.0.1440.900" timestamp="1607394141225" />
     <state width="1398" height="173" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1602599462103" />
@@ -227,9 +226,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="426" y="63" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1600683011921" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1606399742825">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1607443455822">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/-1024.132.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1607443455822" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/-1024.88.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1606399742825" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1602592403541" />
   </component>
@@ -245,11 +245,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/ThreeSum.java</url>
           <line>34</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/MergeIntervals.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
